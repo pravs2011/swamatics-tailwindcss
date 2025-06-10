@@ -17,6 +17,7 @@ const OptimizedRoutes = () => {
       <Route path="/plants" element={<Pages.Plants />} />
       <Route path="/mission-and-vision" element={<Pages.MissionVision />} />
       <Route path="/introduction" element={<Pages.QualityTesting />} />
+      <Route path="/engineering-design" element={<Pages.EngineeringDesign />} />
     </Routes>
   );
 };

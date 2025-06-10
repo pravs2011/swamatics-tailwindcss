@@ -5,6 +5,7 @@ import History from "../../pages/Introduction/History/History";
 import Plants from "../../pages/Introduction/Plants/Plants";
 import MissionVision from "../../pages/Introduction/MissionVision/MissionVision";
 import QualityTesting from "../../pages/Introduction/QualityTesting/QualityTesting";
+import EngineeringDesign from "../../pages/Introduction/EngineeringDesign/EngineeringDesign";
 
 export {
   HomePage,
@@ -14,4 +15,5 @@ export {
   Plants,
   MissionVision,
   QualityTesting,
+  EngineeringDesign,
 };
