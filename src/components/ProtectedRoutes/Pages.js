@@ -16,6 +16,7 @@ import TruckBlowers from "../../pages/Products/TruckBlowers/TruckBlowers";
 import BioGasBlowersCompressors from "../../pages/Products/BioGasBlowers/BioGasBlowersCompressors";
 import AirInjection from "../../pages/Products/VaccumPumps/AirInjection";
 import RotarySlidingVaneCompressors from "../../pages/Products/RotarySlidingVaneCompressors/RotarySlidingVaneCompressors";
+import CentrifugalFansAndBlowers from "../../pages/Products/CentrifugalFansAndBlowers/CentrifugalFansAndBlowers";
 
 export {
   HomePage,
@@ -36,4 +37,5 @@ export {
   BioGasBlowersCompressors,
   AirInjection,
   RotarySlidingVaneCompressors,
+  CentrifugalFansAndBlowers,
 };
