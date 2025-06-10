@@ -16,8 +16,13 @@ import {
   FaArrowRight,
   FaStar,
   FaRocket,
+  FaCertificate,
+  FaFlag,
+  FaOilCan,
+  FaHardHat,
+  FaEuroSign,
 } from "react-icons/fa";
-import { GiGears, GiFactory, GiChemicalDrop } from "react-icons/gi";
+import { GiGears, GiFactory, GiChemicalDrop, GiMining } from "react-icons/gi";
 import {
   MdEngineering,
   MdPrecisionManufacturing,
@@ -96,12 +101,42 @@ const EngineeringDesign = () => {
   ];
 
   const standards = [
-    { name: "ISO", color: "bg-blue-500" },
-    { name: "BSi", color: "bg-green-500" },
-    { name: "API", color: "bg-purple-500" },
-    { name: "CE", color: "bg-orange-500" },
-    { name: "Ex", color: "bg-red-500" },
-    { name: "Mining", color: "bg-indigo-500" },
+    {
+      name: "ISO",
+      color: "bg-blue-500",
+      icon: <FaCertificate className="w-5 h-5" />,
+      description: "International Organization for Standardization",
+    },
+    {
+      name: "BSi",
+      color: "bg-green-500",
+      icon: <FaFlag className="w-5 h-5" />,
+      description: "British Standards Institution",
+    },
+    {
+      name: "API",
+      color: "bg-purple-500",
+      icon: <FaOilCan className="w-5 h-5" />,
+      description: "American Petroleum Institute",
+    },
+    {
+      name: "CE",
+      color: "bg-orange-500",
+      icon: <FaEuroSign className="w-5 h-5" />,
+      description: "Conformité Européenne",
+    },
+    {
+      name: "Ex",
+      color: "bg-red-500",
+      icon: <FaShieldAlt className="w-5 h-5" />,
+      description: "Explosion Protection",
+    },
+    {
+      name: "Mining",
+      color: "bg-indigo-500",
+      icon: <GiMining className="w-5 h-5" />,
+      description: "Mining Industry Standards",
+    },
   ];
 
   const growthPillars = [
@@ -332,18 +367,31 @@ const EngineeringDesign = () => {
                 <h3 className="text-2xl font-bold text-gray-900 mb-8 relative z-10">
                   International Standards
                 </h3>
-                <div className="grid grid-cols-2 gap-4 relative z-10">
+                <div className="grid grid-cols-2 gap-6 relative z-10">
                   {standards.map((standard, index) => (
                     <div
                       key={index}
-                      className="group bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 text-center relative overflow-hidden"
+                      className="group bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 text-center relative overflow-hidden border border-gray-100 hover:border-gray-200"
                     >
                       <div
-                        className={`absolute top-0 left-0 w-full h-1 ${standard.color}`}
+                        className={`absolute top-0 left-0 w-full h-2 ${standard.color} rounded-t-xl`}
                       ></div>
-                      <span className="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
-                        {standard.name}
-                      </span>
+
+                      <div
+                        className={`inline-flex items-center justify-center w-12 h-12 ${standard.color} rounded-lg mb-4 text-white group-hover:scale-110 transition-transform duration-300`}
+                      >
+                        {standard.icon}
+                      </div>
+
+                      <div className="mb-2">
+                        <span className="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors block">
+                          {standard.name}
+                        </span>
+                      </div>
+
+                      <p className="text-xs text-gray-400 leading-relaxed group-hover:text-gray-600 transition-colors duration-300">
+                        {standard.description}
+                      </p>
                     </div>
                   ))}
                 </div>
