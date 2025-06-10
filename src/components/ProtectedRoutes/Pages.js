@@ -10,6 +10,9 @@ import HealthSafety from "../../pages/Introduction/HealthSafety/HealthSafety";
 import Certificates from "../../pages/Introduction/Certificates/Certificates";
 import RotaryTwinLobeBlowers from "../../pages/Products/RotaryTwinLobeBlowers/RotaryTwinLobeBlowers";
 import ProcessGasBlowers from "../../pages/Products/ProcessGasBlowers/ProcessGasBlowers";
+import TurboBlowers from "../../pages/Products/TurboBlowers/TurboBlowers";
+import HybridHelicalBlowers from "../../pages/Products/SuperHelicalHybridBlowers/HybridHelicalBlowers";
+import TruckBlowers from "../../pages/Products/TruckBlowers/TruckBlowers";
 
 export {
   HomePage,
@@ -24,4 +27,7 @@ export {
   Certificates,
   RotaryTwinLobeBlowers,
   ProcessGasBlowers,
+  TurboBlowers,
+  HybridHelicalBlowers,
+  TruckBlowers,
 };
