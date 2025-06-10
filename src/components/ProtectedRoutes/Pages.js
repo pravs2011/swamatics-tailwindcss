@@ -7,6 +7,9 @@ import MissionVision from "../../pages/Introduction/MissionVision/MissionVision"
 import QualityTesting from "../../pages/Introduction/QualityTesting/QualityTesting";
 import EngineeringDesign from "../../pages/Introduction/EngineeringDesign/EngineeringDesign";
 import HealthSafety from "../../pages/Introduction/HealthSafety/HealthSafety";
+import Certificates from "../../pages/Introduction/Certificates/Certificates";
+import RotaryTwinLobeBlowers from "../../pages/Products/RotaryTwinLobeBlowers/RotaryTwinLobeBlowers";
+import ProcessGasBlowers from "../../pages/Products/ProcessGasBlowers/ProcessGasBlowers";
 
 export {
   HomePage,
@@ -18,4 +21,7 @@ export {
   QualityTesting,
   EngineeringDesign,
   HealthSafety,
+  Certificates,
+  RotaryTwinLobeBlowers,
+  ProcessGasBlowers,
 };

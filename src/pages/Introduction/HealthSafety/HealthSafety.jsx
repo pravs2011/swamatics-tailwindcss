@@ -392,71 +392,179 @@ const HealthSafety = () => {
           </div>
         </div>
 
-        {/* Enhanced Key Commitments */}
-        <div className="py-20 bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 text-white relative overflow-hidden">
-          {/* Animated Background Elements */}
-          <div className="absolute inset-0 opacity-20">
-            <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
-            <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl animate-pulse delay-75"></div>
+        {/* Redesigned Safety Commitments */}
+        <div className="py-24 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 relative overflow-hidden">
+          {/* Modern Background Pattern */}
+          <div className="absolute inset-0 opacity-10">
+            <div
+              className="w-full h-full"
+              style={{
+                backgroundImage: `url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9 0h2v20H9V0zm25.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm-20 20l1.732 1-10 17.32-1.732-1 10-17.32zM58.16 4.134l1 1.732-17.32 10-1-1.732 17.32-10zm-40 40l1 1.732-17.32 10-1-1.732 17.32-10zM80 9v2H60V9h20zM20 69v2H0v-2h20z' fill='%23334155' fill-opacity='0.4'/%3E%3C/svg%3E")`,
+              }}
+            ></div>
+          </div>
+
+          {/* Floating Geometric Shapes */}
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <div className="absolute top-20 left-20 w-32 h-32 bg-gradient-to-br from-blue-200 to-blue-300 rounded-3xl rotate-45 opacity-20 animate-pulse"></div>
+            <div className="absolute bottom-32 right-32 w-24 h-24 bg-gradient-to-br from-indigo-200 to-indigo-300 rounded-full opacity-30 animate-bounce"></div>
+            <div className="absolute top-1/2 left-10 w-16 h-16 bg-gradient-to-br from-purple-200 to-purple-300 rounded-2xl rotate-12 opacity-25 animate-pulse delay-75"></div>
           </div>
 
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold mb-8">
+            {/* Enhanced Header */}
+            <div className="text-center mb-20">
+              <div className="inline-flex items-center justify-center p-4 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl mb-8 shadow-lg transform hover:scale-105 transition-transform duration-300">
+                <FaShieldAlt className="text-3xl text-white mr-3" />
+                <FaHeart className="text-3xl text-white" />
+              </div>
+              <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-gray-900 via-blue-800 to-indigo-900 bg-clip-text text-transparent mb-6">
                 Our Safety Commitments
               </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                Three foundational pillars that drive our unwavering commitment
+                to workplace safety and excellence
+              </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Redesigned Cards with Enhanced Visual Appeal */}
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
               {[
                 {
-                  icon: (
-                    <FaCheckCircle className="text-green-400 text-3xl mb-6" />
-                  ),
+                  icon: <FaTools className="text-4xl" />,
+                  number: "01",
                   title: "Resource Allocation",
+                  subtitle: "Strategic Investment",
                   description:
-                    "Ensure appropriate resources are available to fully implement Health and Safety Policy",
-                  color: "from-green-400 to-green-600",
+                    "Ensuring appropriate resources are available to fully implement our comprehensive Health and Safety Policy across all operations.",
+                  color: "from-emerald-500 to-teal-600",
+                  bgColor: "from-emerald-50 to-teal-50",
+                  features: [
+                    "Equipment Funding",
+                    "Training Programs",
+                    "Technology Upgrades",
+                  ],
                 },
                 {
-                  icon: (
-                    <FaCheckCircle className="text-blue-400 text-3xl mb-6" />
-                  ),
+                  icon: <FaBolt className="text-4xl" />,
+                  number: "02",
                   title: "Emergency Preparedness",
+                  subtitle: "Proactive Response",
                   description:
-                    "Regular mock drills and audits to ensure operations comply with safety management requirements",
-                  color: "from-blue-400 to-blue-600",
+                    "Regular mock drills and comprehensive audits ensuring our operations consistently comply with safety management requirements.",
+                  color: "from-blue-500 to-cyan-600",
+                  bgColor: "from-blue-50 to-cyan-50",
+                  features: ["Mock Drills", "Safety Audits", "Response Teams"],
                 },
                 {
-                  icon: (
-                    <FaCheckCircle className="text-purple-400 text-3xl mb-6" />
-                  ),
+                  icon: <FaAward className="text-4xl" />,
+                  number: "03",
                   title: "Legal Compliance",
+                  subtitle: "Excellence Standard",
                   description:
-                    "Maintain and exceed all legal and business obligations while following best practices",
-                  color: "from-purple-400 to-purple-600",
+                    "Maintaining and exceeding all legal and business obligations while consistently following industry best practices.",
+                  color: "from-purple-500 to-violet-600",
+                  bgColor: "from-purple-50 to-violet-50",
+                  features: [
+                    "Regulatory Compliance",
+                    "Best Practices",
+                    "Continuous Monitoring",
+                  ],
                 },
               ].map((commitment, index) => (
                 <div
                   key={index}
-                  className="group relative bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg border border-white border-opacity-20 p-8 rounded-2xl hover:bg-opacity-15 transition-all duration-500 transform hover:-translate-y-2"
+                  className="group relative transform hover:-translate-y-4 transition-all duration-700"
                 >
-                  <div className="text-center">
-                    {commitment.icon}
-                    <h3 className="text-xl group-hover:text-2xl text-gray-500 font-semibold mb-4">
-                      {commitment.title}
-                    </h3>
-                    <p className="text-gray-300 group-hover:text-gray-900 transition-colors duration-300">
-                      {commitment.description}
-                    </p>
+                  {/* Main Card */}
+                  <div
+                    className={`relative bg-gradient-to-br ${commitment.bgColor} backdrop-filter backdrop-blur-sm border border-white border-opacity-60 rounded-3xl p-8 shadow-xl group-hover:shadow-2xl transition-all duration-500 overflow-hidden`}
+                  >
+                    {/* Card Number Badge */}
+                    <div className="absolute top-6 right-6">
+                      <div
+                        className={`w-12 h-12 bg-gradient-to-br ${commitment.color} rounded-xl flex items-center justify-center shadow-lg`}
+                      >
+                        <span className="text-white font-bold text-lg">
+                          {commitment.number}
+                        </span>
+                      </div>
+                    </div>
+
+                    {/* Icon Container */}
+                    <div className="relative mb-6">
+                      <div
+                        className={`inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br ${commitment.color} rounded-2xl shadow-lg group-hover:scale-110 transition-transform duration-500`}
+                      >
+                        <div className="text-white">{commitment.icon}</div>
+                      </div>
+                      <div
+                        className={`absolute inset-0 bg-gradient-to-br ${commitment.color} rounded-2xl blur-lg opacity-30 group-hover:opacity-50 transition-opacity duration-500`}
+                      ></div>
+                    </div>
+
+                    {/* Content */}
+                    <div className="relative">
+                      <div
+                        className={`text-sm font-semibold text-transparent bg-gradient-to-r ${commitment.color} bg-clip-text mb-2`}
+                      >
+                        {commitment.subtitle}
+                      </div>
+                      <h3 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-gray-800 transition-colors">
+                        {commitment.title}
+                      </h3>
+                      <p className="text-gray-700 leading-relaxed mb-6 group-hover:text-gray-800 transition-colors">
+                        {commitment.description}
+                      </p>
+
+                      {/* Feature List */}
+                      <div className="space-y-3">
+                        {commitment.features.map((feature, idx) => (
+                          <div key={idx} className="flex items-center">
+                            <div
+                              className={`w-2 h-2 bg-gradient-to-r ${commitment.color} rounded-full mr-3 group-hover:scale-125 transition-transform duration-300`}
+                            ></div>
+                            <span className="text-sm text-gray-600 group-hover:text-gray-800 transition-colors">
+                              {feature}
+                            </span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Hover Effect Border */}
+                    <div
+                      className={`absolute inset-0 rounded-3xl bg-gradient-to-r ${commitment.color} opacity-0 group-hover:opacity-10 transition-opacity duration-500 pointer-events-none`}
+                    ></div>
+
+                    {/* Bottom Accent Line */}
+                    <div
+                      className={`absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r ${commitment.color} transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 rounded-b-3xl`}
+                    ></div>
                   </div>
 
-                  {/* Gradient Border on Hover */}
+                  {/* Floating Shadow Effect */}
                   <div
-                    className={`absolute inset-0 rounded-2xl bg-gradient-to-r ${commitment.color} opacity-0 group-hover:opacity-20 transition-opacity duration-500 pointer-events-none`}
+                    className={`absolute inset-0 bg-gradient-to-br ${commitment.color} rounded-3xl blur-2xl opacity-0 group-hover:opacity-20 transition-opacity duration-700 -z-10 transform translate-y-8`}
                   ></div>
                 </div>
               ))}
+            </div>
+
+            {/* Bottom CTA Section */}
+            <div className="mt-20 text-center">
+              <div className="inline-flex items-center justify-center bg-white bg-opacity-80 backdrop-filter backdrop-blur-lg border border-gray-200 rounded-2xl p-8 shadow-xl max-w-2xl mx-auto">
+                <div className="text-center">
+                  <FaCheckCircle className="text-5xl text-green-500 mx-auto mb-4" />
+                  <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                    Committed to Excellence
+                  </h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    These commitments form the foundation of our safety culture,
+                    ensuring every team member returns home safely every day.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
