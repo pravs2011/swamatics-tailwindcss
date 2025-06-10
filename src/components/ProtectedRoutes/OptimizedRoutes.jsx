@@ -38,6 +38,7 @@ const OptimizedRoutes = () => {
         path="/bio-gas-blowers-compressors"
         element={<Pages.BioGasBlowersCompressors />}
       />
+      <Route path="/air-injection" element={<Pages.AirInjection />} />
     </Routes>
   );
 };
