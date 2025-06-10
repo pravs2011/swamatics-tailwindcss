@@ -3,5 +3,15 @@ import WelcomeFromCEO from "../../pages/Introduction/WelcomeFromCEO/WelcomeFromC
 import AboutUs from "../../pages/Introduction/AboutUs/AboutUs";
 import History from "../../pages/Introduction/History/History";
 import Plants from "../../pages/Introduction/Plants/Plants";
+import MissionVision from "../../pages/Introduction/MissionVision/MissionVision";
+import QualityTesting from "../../pages/Introduction/QualityTesting/QualityTesting";
 
-export { HomePage, WelcomeFromCEO, AboutUs, History, Plants };
+export {
+  HomePage,
+  WelcomeFromCEO,
+  AboutUs,
+  History,
+  Plants,
+  MissionVision,
+  QualityTesting,
+};
