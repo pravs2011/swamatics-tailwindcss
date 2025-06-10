@@ -15,6 +15,7 @@ import HybridHelicalBlowers from "../../pages/Products/SuperHelicalHybridBlowers
 import TruckBlowers from "../../pages/Products/TruckBlowers/TruckBlowers";
 import BioGasBlowersCompressors from "../../pages/Products/BioGasBlowers/BioGasBlowersCompressors";
 import AirInjection from "../../pages/Products/VaccumPumps/AirInjection";
+import RotarySlidingVaneCompressors from "../../pages/Products/RotarySlidingVaneCompressors/RotarySlidingVaneCompressors";
 
 export {
   HomePage,
@@ -34,4 +35,5 @@ export {
   TruckBlowers,
   BioGasBlowersCompressors,
   AirInjection,
+  RotarySlidingVaneCompressors,
 };
