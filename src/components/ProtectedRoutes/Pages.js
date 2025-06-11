@@ -30,6 +30,7 @@ import AcousticEnclosuresSilencers from "../../pages/Products/AcousticEnclosures
 import Events from "../../pages/Activities/Events/Events";
 import Testimonials from "../../pages/Activities/Testimonials/Testimonials";
 import Awards from "../../pages/Activities/Awards/Awards";
+import Contact from "../../pages/ContactUs/Contact";
 
 export {
   HomePage,
@@ -64,4 +65,5 @@ export {
   Events,
   Testimonials,
   Awards,
+  Contact,
 };

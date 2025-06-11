@@ -479,7 +479,10 @@ const TopMenu = () => {
 
             {/* Contact Us - Simple navigation item without dropdown */}
             <div className="relative">
-              <button className="px-4 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-200 font-medium whitespace-nowrap">
+              <button
+                onClick={() => navigate("/contact-us")}
+                className="px-4 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-200 font-medium whitespace-nowrap"
+              >
                 Contact Us
               </button>
             </div>
@@ -577,7 +580,10 @@ const TopMenu = () => {
 
             {/* Mobile Contact Us */}
             <div className="mb-4">
-              <button className="w-full text-left px-4 py-3 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-200 font-medium text-lg">
+              <button
+                onClick={() => navigate("/contact-us")}
+                className="w-full text-left px-4 py-3 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-200 font-medium text-lg"
+              >
                 Contact Us
               </button>
             </div>
