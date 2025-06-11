@@ -64,6 +64,7 @@ const OptimizedRoutes = () => {
         path="/mechanical-vacuum-boosters"
         element={<Pages.MechanicalVaccumBoosters />}
       />
+      <Route path="/mvr-blowers" element={<Pages.MVRBlowers />} />
     </Routes>
   );
 };
