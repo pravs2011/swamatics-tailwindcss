@@ -26,6 +26,7 @@ import MVRBlowers from "../../pages/Products/MVRBlowers/MVRBlowers";
 import VaccumSystemsPackages from "../../pages/Products/VaccumSystemPackages/VaccumSystemsPackages";
 import CondenserExhausters from "../../pages/Products/CondensorsExhausters/CondenserExhausters";
 import ShellTubeHeatExchangers from "../../pages/Products/ShellTubeHeatExchangers/ShellTubeHeatExchangers";
+import AcousticEnclosuresSilencers from "../../pages/Products/AcousticEnclosuresSilencers/AcousticEnclosuresSilencers";
 
 export {
   HomePage,
@@ -56,4 +57,5 @@ export {
   VaccumSystemsPackages,
   CondenserExhausters,
   ShellTubeHeatExchangers,
+  AcousticEnclosuresSilencers,
 };
