@@ -82,6 +82,7 @@ const OptimizedRoutes = () => {
         element={<Pages.AcousticEnclosuresSilencers />}
       />
       <Route path="/events" element={<Pages.Events />} />
+      <Route path="/testimonials" element={<Pages.Testimonials />} />
     </Routes>
   );
 };

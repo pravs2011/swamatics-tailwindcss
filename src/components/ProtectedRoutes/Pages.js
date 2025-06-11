@@ -28,6 +28,7 @@ import CondenserExhausters from "../../pages/Products/CondensorsExhausters/Conde
 import ShellTubeHeatExchangers from "../../pages/Products/ShellTubeHeatExchangers/ShellTubeHeatExchangers";
 import AcousticEnclosuresSilencers from "../../pages/Products/AcousticEnclosuresSilencers/AcousticEnclosuresSilencers";
 import Events from "../../pages/Activities/Events/Events";
+import Testimonials from "../../pages/Activities/Testimonials/Testimonials";
 
 export {
   HomePage,
@@ -60,4 +61,5 @@ export {
   ShellTubeHeatExchangers,
   AcousticEnclosuresSilencers,
   Events,
+  Testimonials,
 };
