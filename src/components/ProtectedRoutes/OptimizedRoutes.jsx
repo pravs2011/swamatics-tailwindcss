@@ -69,6 +69,10 @@ const OptimizedRoutes = () => {
         path="/vacuum-systems-and-packages"
         element={<Pages.VaccumSystemsPackages />}
       />
+      <Route
+        path="/condenser-exhausters"
+        element={<Pages.CondenserExhausters />}
+      />
     </Routes>
   );
 };

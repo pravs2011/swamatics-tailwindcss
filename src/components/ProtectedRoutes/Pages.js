@@ -24,6 +24,7 @@ import OilVaneVacuumPump from "../../pages/Products/OilVaneVacuumPump/OilVaneVac
 import MechanicalVaccumBoosters from "../../pages/Products/MechanicalVaccumBoosters/MechanicalVaccumBoosters";
 import MVRBlowers from "../../pages/Products/MVRBlowers/MVRBlowers";
 import VaccumSystemsPackages from "../../pages/Products/VaccumSystemPackages/VaccumSystemsPackages";
+import CondenserExhausters from "../../pages/Products/CondensorsExhausters/CondenserExhausters";
 
 export {
   HomePage,
@@ -52,4 +53,5 @@ export {
   MechanicalVaccumBoosters,
   MVRBlowers,
   VaccumSystemsPackages,
+  CondenserExhausters,
 };
