@@ -60,6 +60,10 @@ const OptimizedRoutes = () => {
         path="/oil-vane-vacuum-pump-2"
         element={<Pages.OilVaneVacuumPump />}
       />
+      <Route
+        path="/mechanical-vacuum-boosters"
+        element={<Pages.MechanicalVaccumBoosters />}
+      />
     </Routes>
   );
 };

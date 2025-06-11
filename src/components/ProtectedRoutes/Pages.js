@@ -21,6 +21,7 @@ import SRSeriesBlowers from "../../pages/Products/SRSeriesBlowers/SRSeriesBlower
 import DryScrewVaccumPump from "../../pages/Products/DryScrewVaccumPumps/DryScrewVaccumPump";
 import LiquidRingVaccumPumps from "../../pages/Products/LiquidRingVaccumPumps/LiquidRingVaccumPumps";
 import OilVaneVacuumPump from "../../pages/Products/OilVaneVacuumPump/OilVaneVacuumPump";
+import MechanicalVaccumBoosters from "../../pages/Products/MechanicalVaccumBoosters/MechanicalVaccumBoosters";
 
 export {
   HomePage,
@@ -46,4 +47,5 @@ export {
   DryScrewVaccumPump,
   LiquidRingVaccumPumps,
   OilVaneVacuumPump,
+  MechanicalVaccumBoosters,
 };
