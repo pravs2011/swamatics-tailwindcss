@@ -29,6 +29,7 @@ import ShellTubeHeatExchangers from "../../pages/Products/ShellTubeHeatExchanger
 import AcousticEnclosuresSilencers from "../../pages/Products/AcousticEnclosuresSilencers/AcousticEnclosuresSilencers";
 import Events from "../../pages/Activities/Events/Events";
 import Testimonials from "../../pages/Activities/Testimonials/Testimonials";
+import Awards from "../../pages/Activities/Awards/Awards";
 
 export {
   HomePage,
@@ -62,4 +63,5 @@ export {
   AcousticEnclosuresSilencers,
   Events,
   Testimonials,
+  Awards,
 };

@@ -83,6 +83,7 @@ const OptimizedRoutes = () => {
       />
       <Route path="/events" element={<Pages.Events />} />
       <Route path="/testimonials" element={<Pages.Testimonials />} />
+      <Route path="/awards" element={<Pages.Awards />} />
     </Routes>
   );
 };
