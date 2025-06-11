@@ -191,7 +191,7 @@ const TopMenu = () => {
             {
               name: "Dry Screw Vacuum Pump",
               description: "Dry Screw Vacuum Pump - Combined Variable Pitch",
-              link: "/dry-screw-vaccum-pump",
+              link: "/dry-screw-vacuum-pump",
             },
             {
               name: "Liquid Ring Vacuum Pump",

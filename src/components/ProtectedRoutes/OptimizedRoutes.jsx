@@ -48,6 +48,10 @@ const OptimizedRoutes = () => {
         element={<Pages.CentrifugalFansAndBlowers />}
       />
       <Route path="/sr-series-blowers" element={<Pages.SRSeriesBlowers />} />
+      <Route
+        path="/dry-screw-vacuum-pump"
+        element={<Pages.DryScrewVaccumPump />}
+      />
     </Routes>
   );
 };

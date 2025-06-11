@@ -18,6 +18,7 @@ import AirInjection from "../../pages/Products/VaccumPumps/AirInjection";
 import RotarySlidingVaneCompressors from "../../pages/Products/RotarySlidingVaneCompressors/RotarySlidingVaneCompressors";
 import CentrifugalFansAndBlowers from "../../pages/Products/CentrifugalFansAndBlowers/CentrifugalFansAndBlowers";
 import SRSeriesBlowers from "../../pages/Products/SRSeriesBlowers/SRSeriesBlowers";
+import DryScrewVaccumPump from "../../pages/Products/DryScrewVaccumPumps/DryScrewVaccumPump";
 
 export {
   HomePage,
@@ -40,4 +41,5 @@ export {
   RotarySlidingVaneCompressors,
   CentrifugalFansAndBlowers,
   SRSeriesBlowers,
+  DryScrewVaccumPump,
 };
