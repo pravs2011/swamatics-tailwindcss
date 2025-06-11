@@ -23,6 +23,7 @@ import LiquidRingVaccumPumps from "../../pages/Products/LiquidRingVaccumPumps/Li
 import OilVaneVacuumPump from "../../pages/Products/OilVaneVacuumPump/OilVaneVacuumPump";
 import MechanicalVaccumBoosters from "../../pages/Products/MechanicalVaccumBoosters/MechanicalVaccumBoosters";
 import MVRBlowers from "../../pages/Products/MVRBlowers/MVRBlowers";
+import VaccumSystemsPackages from "../../pages/Products/VaccumSystemPackages/VaccumSystemsPackages";
 
 export {
   HomePage,
@@ -50,4 +51,5 @@ export {
   OilVaneVacuumPump,
   MechanicalVaccumBoosters,
   MVRBlowers,
+  VaccumSystemsPackages,
 };
