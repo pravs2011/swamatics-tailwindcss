@@ -27,6 +27,7 @@ import VaccumSystemsPackages from "../../pages/Products/VaccumSystemPackages/Vac
 import CondenserExhausters from "../../pages/Products/CondensorsExhausters/CondenserExhausters";
 import ShellTubeHeatExchangers from "../../pages/Products/ShellTubeHeatExchangers/ShellTubeHeatExchangers";
 import AcousticEnclosuresSilencers from "../../pages/Products/AcousticEnclosuresSilencers/AcousticEnclosuresSilencers";
+import Events from "../../pages/Activities/Events/Events";
 
 export {
   HomePage,
@@ -58,4 +59,5 @@ export {
   CondenserExhausters,
   ShellTubeHeatExchangers,
   AcousticEnclosuresSilencers,
+  Events,
 };
