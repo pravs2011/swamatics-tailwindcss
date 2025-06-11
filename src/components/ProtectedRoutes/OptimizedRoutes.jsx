@@ -73,6 +73,10 @@ const OptimizedRoutes = () => {
         path="/condenser-exhausters"
         element={<Pages.CondenserExhausters />}
       />
+      <Route
+        path="/shell-and-tube-type-heat-exchangers"
+        element={<Pages.ShellTubeHeatExchangers />}
+      />
     </Routes>
   );
 };
