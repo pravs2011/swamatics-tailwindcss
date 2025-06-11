@@ -52,6 +52,10 @@ const OptimizedRoutes = () => {
         path="/dry-screw-vacuum-pump"
         element={<Pages.DryScrewVaccumPump />}
       />
+      <Route
+        path="/liquid-ring-vacuum-pumps"
+        element={<Pages.LiquidRingVaccumPumps />}
+      />
     </Routes>
   );
 };
